@@ -1,3 +1,15 @@
-#cuerpo{
-    background-color: #141414;
+body {
+    width: 960px;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+header {
+    height: 70px;
+    background-color: rgb(32, 23, 198)
+}
+main {
+    background-color: #efcaca;
+    color: rgb(49, 21, 151);
 }
