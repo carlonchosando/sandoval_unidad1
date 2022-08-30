@@ -21,6 +21,24 @@ footer {
     color: white;
 }
 
-@media screen {
-    
-}
+@media all and (min-width: 600px) and (max-width:1023px){
+    body,
+    header,
+    main,
+    footer {
+            width: 580px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    } /* fin de la minima 600  */
+
+@media all and (max-width:599px){
+    body, 
+    header,
+    main,
+    footer {
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}    
