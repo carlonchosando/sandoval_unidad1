@@ -15,7 +15,7 @@
       <section id="container">
         <h2>Solicitud de vendedor</h2>
         <p>Llene el formulario para ser contactado por un representante</p>
-        <form action="">
+        <form action="submit">
             <div>
               <label>Nombre</label>
               <input type="text" name="nombre">
@@ -37,15 +37,21 @@
               <input type="phone" name="telefono">
             </div>
             <div>
+              <label>Elije tipo de seguro</label>
+              <select onchange="seguroElegido()" name="tipoDeSeguro" id="tipoDeSeguro">
+                <option value="1">Básico</option>
+                <option value="2">Intermedio</option>
+                <option value="3">Premium</option>
+              </select>
+            </div>
+            <div>
+              <p id="mensaje"></p>
+            </div>
+            <div>
               <button onclick="submit()" type="submit">ENVIAR</button>
             </div>
-            
-
-
         </form>
-        <div>
-
-        </div>
+        
       </section>
     </main>
     <footer>
