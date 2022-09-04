@@ -16,7 +16,7 @@
       <section id="container">
         <h2>Solicitud de vendedor</h2>
         <p>Llene el formulario para ser contactado por un representante</p>
-        <form name="formData" action="submit">
+        <form name="formData" onsubmit="capturaData()" id="formData" returse>
             <div>
               <label>Nombre</label>
               <input type="text" name="nombre">
@@ -26,7 +26,7 @@
               <input type="text" name="apellido">
             </div>
             <div>
-              <label>DNI</label>
+              <label>DNI </label>
               <input type="number" name="dni" id="formData_dni">
             </div>
             <div>
@@ -46,10 +46,10 @@
               </select>
             </div>
             <div>
-              <p id="mensaje"></p>
+              <p id="mensaje" ></p>
             </div>
             <div>
-              <button onclick="capturaData()" type="submit">ENVIAR</button>
+              <button type="submit">ENVIAR</button>
             </div>
         </form>
         
