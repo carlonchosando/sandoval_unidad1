@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,13 +9,38 @@
 </head>
 <body >
     <header>
-      
+      <h1>Seguro No Pagamos Cooperativa</h1>
     </header>
     <main>
-      <section>
-        <h2>Hola</h2>
-        <p>prueba 01</p>
+      <section id="container">
+        <h2>Solicitud de vendedor</h2>
+        <p>Llene el formulario para ser contactado por un representante</p>
         <form action="">
+            <div>
+              <label>Nombre</label>
+              <input type="text" name="nombre">
+            </div>
+            <div>
+              <label>Apellido</label>
+              <input type="text" name="apellido">
+            </div>
+            <div>
+              <label>DNI</label>
+              <input type="number" name="dni">
+            </div>
+            <div>
+              <label>E-mail</label>
+              <input type="email" name="email">
+            </div>
+            <div>
+              <label>telefono</label>
+              <input type="phone" name="telefono">
+            </div>
+            <div>
+              <button onclick="submit()" type="submit">ENVIAR</button>
+            </div>
+            
+
 
         </form>
         <div>
@@ -24,7 +49,7 @@
       </section>
     </main>
     <footer>
-        <p>pie de página</p>
+        <p>Seguro@NoPagamosCooperativa.com</p>
     </footer>
     <script src="./js/index.js"></script>
     <script src="./js/helper.js"></script>
