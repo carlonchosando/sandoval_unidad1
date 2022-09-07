@@ -28,6 +28,7 @@ El objetivo es que los futuros clientes puedan solicitar un contacto a través d
 * Intermedio: $1000
 * Premium: $1500
 
+![Burrito Pensando](./img/1.png)
 
 >*Formato de entrega:*
 
